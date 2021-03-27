@@ -1,6 +1,7 @@
 # cookapps
 210327 쿡앱스 사전과제
 
-# Cookapps Directory Structure
--client : vue.js Application           
--server : mocking API server
+# Cookapps Directory Layout
+cookapps
+  ㄴ client  :  vue.js Application           
+  ㄴ server  :  mocking API server
