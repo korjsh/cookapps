@@ -9,3 +9,5 @@ yarn install
 ```
 node index.js
 ```
+
+.env file은 일부로 gitignore에 안넣었습니다!
