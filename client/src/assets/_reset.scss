@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+
+/* reset */
+html, body, header, footer, nav, section, article, aside, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, form, fieldset, legend, caption, blockquote, input, button, select, textarea, button {margin:0; padding:0;}
+body {min-width:280px; text-align:left; border:0 none;}
+html {
+    overflow-y: scroll;
+    font-size:$defFontsize; 
+    line-height:$defLineHeight; 
+    color:$defFontColor;
+}
+header, footer, nav, section, article, aside {display:block;}
+ul, ol {list-style-type:none;}
+fieldset {border:none;}
+legend {display:none;}
+table {table-layout:fixed; border-collapse:collapse; border-spacing:0;}
+table caption {line-height:0; font-size:0;}
+address,em,i {font-style:normal;}
+ruby rt {font-size:1em;}
+hr {display:none;}
+img {border:0; vertical-align:top;}
+a {text-decoration:none; outline:none; color:$defFontColor;}
+a:hover {text-decoration:underline;}
+input, textarea, button, select { font-size:$defFontsize;}
+button {border:0 none; background:none; overflow:visible; outline:none; cursor:pointer;}
+button, input[type=text], input[type=password], input[type=tel], input[type=number], input[type=button], input[type=submit] {-webkit-appearance:none; -moz-appearance:none; appearance:none; border:0 none; border-radius:0; background:none; overflow:visible;}
+textarea {border-radius:0;}
+button::-moz-focus-inner {padding:0; border:0;}
+button:disabled {cursor:default;}
+::-webkit-input-placeholder {color:$placeholder;}
+::-moz-placeholder {color:$placeholder; opacity:1;}
+:-ms-input-placeholder {color:$placeholder;}
+
+
+select {
+    background: #fff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #FFFFFF url(data:image/png;base64,R0lGODlhDwAUAIABAAAAAP///yH5BAEAAAEALAAAAAAPABQAAAIXjI+py+0Po5wH2HsXzmw//lHiSJZmUAAAOw==) no-repeat 98% 50%;    
+    &::-ms-expand {
+        display: none;
+    }
+}
+
+// input number button clear
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.blind {position: absolute;overflow: hidden;margin: -1px;padding: 0;width: 1px;height: 1px;border: none;clip: rect(0, 0, 0, 0)}
+%xeicon {
+    font-family: 'xeicon' !important;
+    display: inline-block;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.noscroll {overflow-y: hidden;}

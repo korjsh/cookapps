@@ -1,0 +1,11 @@
+@charset 'UTF-8';
+  
+// rem calc
+@function rem($size, $ratio:2) {
+  @return ($size/$ratio) / $rootFontsize + rem;
+}
+
+// line-height calc
+@function lh($fontSize, $lineHeight) {
+  @return ($lineHeight/$fontSize) + em;
+}
