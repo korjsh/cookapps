@@ -1,5 +1,5 @@
 # cookapps
-210327 쿡앱스 사전과제
+210327 쿡앱스
 
 ## cookapps directory layout
     .
